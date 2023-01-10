@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 I'm Gordon, this is my static website organized as a feed of posts.  These posts will be lab reports sharing my education in Cloud Engineering, Site Reliability Engineering, and DevOps topics. 

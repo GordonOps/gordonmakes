@@ -19,6 +19,7 @@ categories: lab
 * The problem with how AWS CloudFront interprets index.html was documented by Nelson Figueroa “Resolving AWS CloudFront Access Denied Errors”.
 * Confirming that due to my theme my subdomains all expected index.html I opted to reinit the project for the domain [gordonmakes.com](http://gordonmakes.com) using the theme jekyll-swiss authored by [git user broccolini](https://github.com/broccolini).
 * I was able to confirm that posts were now in a feed and named theirtitle.html as the document not index.html and that jekyll-swiss was rendering beautiful posts. That confirmation gave me confidence to procede with my original method outlined above.
+* removing the line "permalink: /about/" from about.markdown was essential in changing the site generation towards causing jekyll to generate an about.html in root directory as opposed to generating /about/index.html
 
 ## Conclusions:
 This is the section were scientists conclude more funding is needed to continue their valuable ~~careers~~ work. 
