@@ -1,0 +1,15 @@
+before_install:
+  - gem install bundler
+language: ruby
+rvm:
+  - 3.1.1
+before_script:
+  - pip install --user awscli
+  - rm -rf public
+  - bundle exec jekyll build
+script:
+- aws s3 sync public/ s3://gordonmakes.com --acl public-read --delete
+- aws cloudfront create-invalidation --distribution-id E3HUVEASNCE7NB --paths '/*'
+branches:
+  only:
+    - master
