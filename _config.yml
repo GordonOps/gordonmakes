@@ -26,11 +26,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   Opinions are my own. For human eyes only.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gordonmakes.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Gordon_Ops
-github_username:  GordonOps
-
-# Build settings
+github_repo: gordonmakes # the GitHub repo name for your project
+github_username: GordonOps
 theme: jekyll-swiss
+
+# Optional social link, you can choose from the following options:
+# twitter (default), instagram, medium, or dribbble
+social_link: twitter
+social_username: Gordon_Ops
+# Build settings
+theme_color: blue
 plugins:
   - jekyll-feed
 

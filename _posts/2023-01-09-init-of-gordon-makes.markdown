@@ -6,6 +6,9 @@ categories: lab
 ---
 # Lab: Create and Host a Static Website 
 
+## Abstract
+It's commonly recommended for those starting tech careers to put a portfolio online, and have an active in order to set themselves apart. In my case I'm documenting my initiation in devops and cloud stacks through personal projects and labs. This kind of lab work perfectly lends itself to lab reports. Also, hosting the lab notebook on AWS demonstrates an entrance into using those cloud services. Thusly motivated, the first Lab will be to Create the Static Site using Jekyll and Serve it using AWS. 
+
 ## Method:
 1. **Environment** - Install Git, Jekyll, VSCode etc. And on local machine initiate projects and repositories to manage changes. As well, integrate online with GitHub and Travis CI to automate site build and change management through git pushes. This activity follows the LinkedIn Learning module for setting up a Jekyll Static Site, by Nate Babettini *[Learning Static Site Building with Jekyll](https://www.linkedin.com/learning/learning-static-site-building-with-jekyll/)*
 2. **Deployment** - Deploying the site will be done using the AWS suite. Domain purchase, route 53 dns records, certificate management, s3 hosting, and cloud front distribution all have to be done correctly. The steps observed in the in the LinkedIn Learning linked above did not quite suffice. Refer instead to the documentation done by amazon itself. 
