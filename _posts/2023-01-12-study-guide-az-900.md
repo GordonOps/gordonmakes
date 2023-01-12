@@ -4,6 +4,7 @@ title: 'Study Guide: AZ-900'
 date: 2023-01-12 13:20 -0500
 categories: studyguide
 ---
+<span style="background-color:PaleGreen"></span>
 
 1. True or false: You need to purchase an Azure account before you can use any Azure resources.
     * True
