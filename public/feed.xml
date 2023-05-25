@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-25T16:52:04-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gordon Makes</title><subtitle>Lab Reports logging Gordon Geringas&apos;s education in DevOps, Cloud Engineering, and Site Reliability Engineering. Opinions are my own. For human eyes only.</subtitle><entry><title type="html">Study Guide: AZ-900</title><link href="http://localhost:4000/studyguide/2023/01/12/study-guide-az-900.html" rel="alternate" type="text/html" title="Study Guide: AZ-900" /><published>2023-01-12T13:20:00-05:00</published><updated>2023-01-12T13:20:00-05:00</updated><id>http://localhost:4000/studyguide/2023/01/12/study-guide-az-900</id><content type="html" xml:base="http://localhost:4000/studyguide/2023/01/12/study-guide-az-900.html"><![CDATA[<p><span style="background-color:PaleGreen"></span></p>
+
+<ol>
+  <li>True or false: You need to purchase an Azure account before you can use any Azure resources.
+    <ul>
+      <li>True</li>
+      <li><span style="background-color:PaleGreen">False</span></li>
+    </ul>
+  </li>
+  <li>What is meant by cloud computing?
+    <ul>
+      <li><span style="background-color:PaleGreen"> Delivery of computing services over the internet.</span></li>
+      <li>Setting up your own datacenter.</li>
+      <li>Using the internet</li>
+    </ul>
+  </li>
+  <li>Which of the following is not a feature of Cloud computing?
+    <ul>
+      <li>Faster innovation</li>
+      <li><span style="background-color:PaleGreen">A limited pool of services</span></li>
+      <li>Speech recognition and other cognitive services</li>
+    </ul>
+  </li>
+  <li>How many resource groups can a resource be in at the same time?
+    <ul>
+      <li><span style="background-color:PaleGreen">One</span></li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+  </li>
+  <li>What happens to the resources within a resource group when an action or setting at the Resource Group level is applied?
+    <ul>
+      <li>Current resources inherit the setting, but future resources don’t.</li>
+      <li>Future resources inherit the setting, but current ones don’t.</li>
+      <li><span style="background-color:PaleGreen">The setting is applied to current and future resources.</span></li>
+    </ul>
+  </li>
+  <li>What Azure feature replicates resources across regions that are at least 300 miles away from each other?
+    <ul>
+      <li><span style="background-color:PaleGreen">Region pairs</span></li>
+      <li>Availability Zones</li>
+      <li>Sovereign regions</li>
+    </ul>
+  </li>
+  <li>Which of the following choices isn’t a cloud computing category?
+    <ul>
+      <li><span style="background-color:PaleGreen">Networking-as-a-Service (NaaS)</span></li>
+      <li>Platform-as-a-Service (PaaS)</li>
+      <li>Infrastructure-as-a-Service (IaaS)</li>
+      <li>Software-as-a-Service (SaaS)</li>
+    </ul>
+  </li>
+  <li>Which of the following statements is true?
+    <ul>
+      <li>With Operating Expenses (OpEx), you are responsible for purchasing and maintaining your computing resources.</li>
+      <li><span style="background-color:PaleGreen">With Operating Expenses (OpEx), you are only responsible for the computing resources that you use.</span></li>
+      <li>With Capital Expenses (CapEx), you are only responsible for the computing resources that you use.</li>
+    </ul>
+  </li>
+  <li>Which of the following options isn’t a type of cloud computing?
+    <ul>
+      <li><span style="background-color:PaleGreen">Distributed cloud </span></li>
+      <li>Hybrid cloud</li>
+      <li>Private cloud</li>
+      <li>Public cloud</li>
+    </ul>
+  </li>
+  <li>Which of the following choices isn’t a benefit of using cloud services?
+    <ul>
+      <li>Scalability</li>
+      <li>Disaster recovery</li>
+      <li>High availability</li>
+      <li><span style="background-color:PaleGreen">Geographic isolation </span></li>
+    </ul>
+  </li>
+  <li>Which of the following can be used to manage governance across multiple Azure subscriptions?
+    <ul>
+      <li>Azure initiatives</li>
+      <li><span style="background-color:PaleGreen">Management groups</span></li>
+      <li>Resource groups</li>
+    </ul>
+  </li>
+  <li>Which of the following is a logical unit of Azure services that links to an Azure account?
+    <ul>
+      <li><span style="background-color:PaleGreen">Azure subscription</span></li>
+      <li>Management group</li>
+      <li>Resource group</li>
+      <li>Public cloud</li>
+    </ul>
+  </li>
+  <li>Which of the following features does not apply to resource groups?
+    <ul>
+      <li>Resources can be in only one resource group.</li>
+      <li>Role-based access control can be applied to the resource group.</li>
+      <li><span style="background-color:PaleGreen">Resource groups can be nested.</span></li>
+    </ul>
+  </li>
+  <li>Which of the following statements is a valid statement about an Azure subscription?
+    <ul>
+      <li>Using Azure doesn’t require a subscription.</li>
+      <li><span style="background-color:PaleGreen">An Azure subscription is a logical unit of Azure services.</span></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name></name></author><category term="studyguide" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Lab: MSLE Learn On Demand: AZ-900</title><link href="http://localhost:4000/lab/2023/01/12/lab-msle-learn-on-demand-az-900.html" rel="alternate" type="text/html" title="Lab: MSLE Learn On Demand: AZ-900" /><published>2023-01-12T11:27:00-05:00</published><updated>2023-01-12T11:27:00-05:00</updated><id>http://localhost:4000/lab/2023/01/12/lab-msle-learn-on-demand-az-900</id><content type="html" xml:base="http://localhost:4000/lab/2023/01/12/lab-msle-learn-on-demand-az-900.html"><![CDATA[<h2 id="abstract">Abstract</h2>
+<p>My Azure Administration course has laboratory assignments that make use of <em>Microsoft Learn for Educators</em>’s aka MSLE’s cloud powered VM based <a href="https://msle.learnondemand.net/User/Login?ReturnUrl=%2F">learning environment</a> hosted by the vendor <a href="https://www.skillable.com/">Skillable</a>.</p>
+
+<p>My first assignment has 2 tasks to be completed within the MSLE environment. Task 1: Create an Azure resource, Task 2: Create an Azure Virtual Machine.</p>
+
+<h2 id="method">Method</h2>
+<p>Instruction for logging into the environment were provided by an unlisted YouTube video. The login process specified the applicable content was AZ-900. Inside the learning environment there were step by step instructions for completing the 2 Tasks under Module 1 and 2.</p>
+
+<h2 id="observations">Observations</h2>
+<p>The MSLE was registered using the key provided and school email and the EULA was agreed to. The T00A series of labs has 5 required labs available to launch up to 10 times. Below is a challenge test and 27 supporting labs that are all not required and all able to launch 3 times.</p>
+
+<p>The lab Module 01 was completed and a verification screengrab was captured. Each step was identical to what was on learn.microsoft.com. Hypothesis: this service seems to be differentiated from learn.microsoft.com not in content but possibly in tracking and verification.</p>
+
+<p>The lab Module 02 included instructions to create a VM in the cloud CLI using some bash script and some commands. But I don’t really understand the commands or steps. This is definitely a limitation of overbuilding the learning lab.</p>
+
+<p>Mysteries: Why did bash need to create storage and resource group before it could be used? What is required to initialize a VM via cmd line. Isn’t it better to send a config containing all the VM specs? What process needs to be done to review requirements and confirm the VM specifications are adequate?</p>
+
+<h2 id="conclusions">Conclusions</h2>
+<p>An interesting but not so challenging assignment. The problem solving required was nill. Every part of the instructions included a clickable icon and adequate direction to follow along mindlessly, no room to get stuck, read the docs, try out solutions and find a better way. On a scale of fluff to tough, this assignment was fine soft wool.</p>]]></content><author><name></name></author><category term="lab" /><summary type="html"><![CDATA[Abstract My Azure Administration course has laboratory assignments that make use of Microsoft Learn for Educators’s aka MSLE’s cloud powered VM based learning environment hosted by the vendor Skillable.]]></summary></entry><entry><title type="html">Lab: Microsoft Azure Fundam.s</title><link href="http://localhost:4000/lab/2023/01/12/lab-microsoft-azure-fundamentals.html" rel="alternate" type="text/html" title="Lab: Microsoft Azure Fundam.s" /><published>2023-01-12T10:57:00-05:00</published><updated>2023-01-12T10:57:00-05:00</updated><id>http://localhost:4000/lab/2023/01/12/lab-microsoft-azure-fundamentals</id><content type="html" xml:base="http://localhost:4000/lab/2023/01/12/lab-microsoft-azure-fundamentals.html"><![CDATA[<h2 id="abstract">Abstract</h2>
+<p>As my college program begins the course MS Azure 1: Azure Administration we open with a unit based on the AZ-900 series of Learning Paths on <em>learn.microsoft.com</em>. Next week we take on the AZ104 preparatory material which leads to the Azure Administrator Associate level Exam.</p>
+
+<p>The Learning Goals for the series are quoted below:</p>
+<blockquote>
+  <p>After completing this learning path, you’ll be able to:</p>
+
+  <ul>
+    <li>Understand the benefits of cloud computing in Azure and how it can save you time and money</li>
+    <li>Explain cloud concepts such as high availability, scalability, elasticity, agility, and disaster recovery</li>
+    <li>Describe core Azure architecture components such as subscriptions, management groups, resources and resource groups</li>
+    <li>Summarize geographic distribution concepts such as Azure regions, region pairs, and availability zones</li>
+  </ul>
+</blockquote>
+
+<h2 id="method">Method</h2>
+<p>This lab is essentially to review the material in these 6 curriculum subjects are provided by Learn.Microsoft.com in 3 Learning Paths.</p>
+
+<ol>
+  <li><a href="https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/">Describe core Azure concepts</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/">Describe Azure architecture and services</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/">Describe Azure management and governance</a></li>
+</ol>
+
+<h2 id="observations">Observations</h2>
+
+<p>There is a clear misalignment between what the learning content writer set out to do, 6 courses and what they actually produced: 3 Learning Paths. Each of the 6 courses linked to one of the 3 paths which made it confusing to get a lay of the land: understanding what material is even being studied. Clicking start and clicking through content on the page lead to literally different courses. I appreciated the opportunity to get extra questions in my study guide but did not appreciate the confusion leading to retracing knowledge I already noted.</p>
+
+<p>Azure thinks it’s main value is to build deploy and manage applications, facilitate rapid time to market for features that delight users, and prevent dissapointment with users in a competitive field. What kind of apps: ML/AI, Web 2.0 (JS,Python), and Mobile. Likely also internal tools, big data, and data analytics.</p>
+
+<p>A very interesting video: <em>“How does Azure Work?</em> takes the familiar idea of Hypervisor from the last several iterations of windows. Azure datacenters operate big racks of compute hardware with Hypervisors and VMs but adds 2 management components: a <strong>fabric controller</strong> and an <strong>orchestrator</strong>. The orchestrator is communicating with Azure portal or command line, with those commands selects a physical server to execute the commands. The fabric controller recieves Orchestrator commands to then configure and deploy the resources through the hypervisor therein. The video left a good feeling of peeling back the layers of the onion, although it’s understandably insufficient to say one has a working understanding.</p>
+
+<p>Azure portal is designed to never go down even for maintainance. Services: compute, networking, storage, mobile cross platform or native apps and notifications, databases multiple engines and mgmt tools, web for building and deploying web apps (eg. azure maps, apis), iot connection and management, big data: for clustering and mass scale analytics, ai services for forecasting and modeling, devops automating software delivery with pipelines that manage integration, deployment, change control.</p>
+
+<p>In the second learning path there is a section of required Sandbox Exercises requesting the learner to perform various administrative tasks. Starts with using the CLI with different interpreters and ends with using the Azure Admin Portal. It was possible to change to bash interpreter by typing bash, and to powershell by typing pwsh easy to remember because it ends like bash with sh for shell. It was also possible to enter an interactive mode which enabled a menu of autocomplete options and gave descriptive colouring to things. I didn’t prefer interactive mode because the colouring to me reduced the clarity of what I was seeing.</p>
+
+<p>On regions and zones. Both can contain one or more datacenters. Zones are subdomains of regions which are meant to gaurantee isolation (redundancy concerns). There’s also a hedge for loosing your region called a region pair. Finally some sovereign environments require special rules to operate in cooperation with governments and these are called Sovereign Regions. Bemusingly both China North and China East are not maintained by microsoft directly (eyeroll).</p>
+
+<p>Everything provisioned is a resource. Every resource needs to belong to exactly one resource group. Resource groups cannot be nested inside other resource groups. Actions on resource groups affect all the children resource contained therein eg deletion, permission.  Subscriptions have features like identity through Active Directory, enabling azure features linked to predefined billing (boundaries), and are linked to an account to enable provisioning resources. Sub to subscriptions are resource groups with inheritance rules. The structure above subscriptions is management groups with configurable params called governance rules that subscriptions inherit from their parent management group. A VM was created but couldn’t be connected to. I suppose this aligns with another lab report so I took some screenshots. Clean up is automatic in the Learn sandbox but in practice deleting the resource group ensure a minimized bill - a good tip.</p>
+
+<h2 id="conclusion">Conclusion</h2>]]></content><author><name></name></author><category term="lab" /><summary type="html"><![CDATA[Abstract As my college program begins the course MS Azure 1: Azure Administration we open with a unit based on the AZ-900 series of Learning Paths on learn.microsoft.com. Next week we take on the AZ104 preparatory material which leads to the Azure Administrator Associate level Exam.]]></summary></entry><entry><title type="html">Init of Gordon Makes</title><link href="http://localhost:4000/lab/2023/01/09/init-of-gordon-makes.html" rel="alternate" type="text/html" title="Init of Gordon Makes" /><published>2023-01-09T16:11:22-05:00</published><updated>2023-01-09T16:11:22-05:00</updated><id>http://localhost:4000/lab/2023/01/09/init-of-gordon-makes</id><content type="html" xml:base="http://localhost:4000/lab/2023/01/09/init-of-gordon-makes.html"><![CDATA[<h1 id="lab-create-and-host-a-static-website">Lab: Create and Host a Static Website</h1>
+
+<h2 id="abstract">Abstract</h2>
+<p>It’s commonly recommended for those starting tech careers to put a portfolio online, and have an active in order to set themselves apart. In my case I’m documenting my initiation in devops and cloud stacks through personal projects and labs. This kind of lab work perfectly lends itself to lab reports. Also, hosting the lab notebook on AWS demonstrates an entrance into using those cloud services. Thusly motivated, the first Lab will be to Create the Static Site using Jekyll and Serve it using AWS.</p>
+
+<h2 id="method">Method:</h2>
+<ol>
+  <li><strong>Environment</strong> - Install Git, Jekyll, VSCode etc. And on local machine initiate projects and repositories to manage changes. As well, integrate online with GitHub and Travis CI to automate site build and change management through git pushes. This activity follows the LinkedIn Learning module for setting up a Jekyll Static Site, by Nate Babettini <em><a href="https://www.linkedin.com/learning/learning-static-site-building-with-jekyll/">Learning Static Site Building with Jekyll</a></em></li>
+  <li><strong>Deployment</strong> - Deploying the site will be done using the AWS suite. Domain purchase, route 53 dns records, certificate management, s3 hosting, and cloud front distribution all have to be done correctly. The steps observed in the in the LinkedIn Learning linked above did not quite suffice. Refer instead to the documentation done by amazon itself.</li>
+</ol>
+
+<h2 id="observations">Observations:</h2>
+<ul>
+  <li>Editing in markdown and reviewing on localhost was satisfying</li>
+  <li>Travis CI integration had multiple breakdowns due to versioning bundle and ruby. Review of support docs and 15 test builds later solutions were to add to _travis.yml the lines <code class="language-plaintext highlighter-rouge">before install:</code>, <code class="language-plaintext highlighter-rouge">-gem install bundler</code>, <code class="language-plaintext highlighter-rouge">rvm:</code> and <code class="language-plaintext highlighter-rouge">-3.1.3</code></li>
+  <li>Distribution through cloudfront wasn’t possible with Google Domains. The site had to be set up through Route 53 in order to get certificates and distribution working. The course referenced in Method.1 underspecified this stage.</li>
+  <li>Long roadblock with earlier attempt due to how CloudFront deals with “index.html”. For example /projects/ in the browser bar which should have rendered the file located at /projects/index.html was instead returning 403 forbidden page generated by AWS not contained in the S3 bucket.</li>
+  <li>The problem with how AWS CloudFront interprets index.html was documented by Nelson Figueroa “Resolving AWS CloudFront Access Denied Errors”.</li>
+  <li>Confirming that due to my theme my subdomains all expected index.html I opted to reinit the project for the domain <a href="http://gordonmakes.com">gordonmakes.com</a> using the theme jekyll-swiss authored by <a href="https://github.com/broccolini">git user broccolini</a>.</li>
+  <li>I was able to confirm that posts were now in a feed and named theirtitle.html as the document not index.html and that jekyll-swiss was rendering beautiful posts. That confirmation gave me confidence to procede with my original method outlined above.</li>
+  <li>removing the line “permalink: /about/” from about.markdown was essential in changing the site generation towards causing jekyll to generate an about.html in root directory as opposed to generating /about/index.html</li>
+</ul>
+
+<h2 id="conclusions">Conclusions:</h2>
+<p>This is the section were scientists conclude more funding is needed to continue their valuable <del>careers</del> work.</p>
+
+<p>I loved the results of renderring my pages with the Jekyll-Swiss theme.</p>
+
+<p>I found that getting security certificates was so much faster and easier when I changed my domain management over from Google Domains to Route 53, the integrations in AWS were key to success, reducing wait times for DNS updating and frustrations.</p>
+
+<p>While trouble shooting I found myself more and more wary of the blogs of many people who published content about hosting a static sight on AWS, and more and more found myself turning to the AWS documentation itself.</p>
+
+<p>I was not very happy using Travis CI to build my sites when my local device was perfectly capable of this task. I would prefer to integrate my pushes to github and Amazon S3 using an alternative build method.</p>
+
+<p>I would also like to put both the project I abandoned and it’s associated domain that I purchased to work in the future. Possibly by gaining experience hosting with Microsoft Azure or Google Cloud.</p>]]></content><author><name></name></author><category term="lab" /><summary type="html"><![CDATA[Lab: Create and Host a Static Website]]></summary></entry></feed>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Lab: Microsoft Azure Fundam.s</title>
+  <meta name="description" content="AbstractAs my college program begins the course MS Azure 1: Azure Administration we open with a unit based on the AZ-900 series of Learning Paths on learn.mi...">
+
+  
+  
+  <link rel="stylesheet" href="http://localhost:4000/assets/style.css">
+
+  <link rel="canonical" href="http://localhost:4000/lab/2023/01/12/lab-microsoft-azure-fundamentals.html">
+  <link rel="alternate" type="application/rss+xml" title="Gordon Makes" href="http://localhost:4000/feed.xml">
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="border-bottom-thick px-2 clearfix">
+  <div class="left sm-width-full py-1 mt-1 mt-lg-0">
+    <a class="align-middle link-primary text-accent" href="/">
+      Gordon Makes
+    </a>
+  </div>
+  <div class="right sm-width-full">
+    <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
+      
+        
+      
+        
+        <li class="inline-block">
+          <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="/about.html">
+            About
+          </a>
+        </li>
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+</header>
+
+
+    <div>
+      <article class="container px-2 mx-auto mb4" itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 class="h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">Lab: Microsoft Azure Fundam.s</h1>
+  <div class="col-4 sm-width-full mt-1 border-top-thin ">
+    <p class="mb-3 py-2 bold h4"><time datetime="2023-01-12T10:57:00-05:00" itemprop="datePublished">Jan 12, 2023</time></p>
+  </div>
+
+  <div class="prose" itemprop="articleBody">
+      <h2 id="abstract">Abstract</h2>
+<p>As my college program begins the course MS Azure 1: Azure Administration we open with a unit based on the AZ-900 series of Learning Paths on <em>learn.microsoft.com</em>. Next week we take on the AZ104 preparatory material which leads to the Azure Administrator Associate level Exam.</p>
+
+<p>The Learning Goals for the series are quoted below:</p>
+<blockquote>
+  <p>After completing this learning path, you’ll be able to:</p>
+
+  <ul>
+    <li>Understand the benefits of cloud computing in Azure and how it can save you time and money</li>
+    <li>Explain cloud concepts such as high availability, scalability, elasticity, agility, and disaster recovery</li>
+    <li>Describe core Azure architecture components such as subscriptions, management groups, resources and resource groups</li>
+    <li>Summarize geographic distribution concepts such as Azure regions, region pairs, and availability zones</li>
+  </ul>
+</blockquote>
+
+<h2 id="method">Method</h2>
+<p>This lab is essentially to review the material in these 6 curriculum subjects are provided by Learn.Microsoft.com in 3 Learning Paths.</p>
+
+<ol>
+  <li><a href="https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/">Describe core Azure concepts</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/">Describe Azure architecture and services</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/">Describe Azure management and governance</a></li>
+</ol>
+
+<h2 id="observations">Observations</h2>
+
+<p>There is a clear misalignment between what the learning content writer set out to do, 6 courses and what they actually produced: 3 Learning Paths. Each of the 6 courses linked to one of the 3 paths which made it confusing to get a lay of the land: understanding what material is even being studied. Clicking start and clicking through content on the page lead to literally different courses. I appreciated the opportunity to get extra questions in my study guide but did not appreciate the confusion leading to retracing knowledge I already noted.</p>
+
+<p>Azure thinks it’s main value is to build deploy and manage applications, facilitate rapid time to market for features that delight users, and prevent dissapointment with users in a competitive field. What kind of apps: ML/AI, Web 2.0 (JS,Python), and Mobile. Likely also internal tools, big data, and data analytics.</p>
+
+<p>A very interesting video: <em>“How does Azure Work?</em> takes the familiar idea of Hypervisor from the last several iterations of windows. Azure datacenters operate big racks of compute hardware with Hypervisors and VMs but adds 2 management components: a <strong>fabric controller</strong> and an <strong>orchestrator</strong>. The orchestrator is communicating with Azure portal or command line, with those commands selects a physical server to execute the commands. The fabric controller recieves Orchestrator commands to then configure and deploy the resources through the hypervisor therein. The video left a good feeling of peeling back the layers of the onion, although it’s understandably insufficient to say one has a working understanding.</p>
+
+<p>Azure portal is designed to never go down even for maintainance. Services: compute, networking, storage, mobile cross platform or native apps and notifications, databases multiple engines and mgmt tools, web for building and deploying web apps (eg. azure maps, apis), iot connection and management, big data: for clustering and mass scale analytics, ai services for forecasting and modeling, devops automating software delivery with pipelines that manage integration, deployment, change control.</p>
+
+<p>In the second learning path there is a section of required Sandbox Exercises requesting the learner to perform various administrative tasks. Starts with using the CLI with different interpreters and ends with using the Azure Admin Portal. It was possible to change to bash interpreter by typing bash, and to powershell by typing pwsh easy to remember because it ends like bash with sh for shell. It was also possible to enter an interactive mode which enabled a menu of autocomplete options and gave descriptive colouring to things. I didn’t prefer interactive mode because the colouring to me reduced the clarity of what I was seeing.</p>
+
+<p>On regions and zones. Both can contain one or more datacenters. Zones are subdomains of regions which are meant to gaurantee isolation (redundancy concerns). There’s also a hedge for loosing your region called a region pair. Finally some sovereign environments require special rules to operate in cooperation with governments and these are called Sovereign Regions. Bemusingly both China North and China East are not maintained by microsoft directly (eyeroll).</p>
+
+<p>Everything provisioned is a resource. Every resource needs to belong to exactly one resource group. Resource groups cannot be nested inside other resource groups. Actions on resource groups affect all the children resource contained therein eg deletion, permission.  Subscriptions have features like identity through Active Directory, enabling azure features linked to predefined billing (boundaries), and are linked to an account to enable provisioning resources. Sub to subscriptions are resource groups with inheritance rules. The structure above subscriptions is management groups with configurable params called governance rules that subscriptions inherit from their parent management group. A VM was created but couldn’t be connected to. I suppose this aligns with another lab report so I took some screenshots. Clean up is automatic in the Learn sandbox but in practice deleting the resource group ensure a minimized bill - a good tip.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+  </div>
+
+</article>
+
+<div class="container mx-auto px-2 py-2 clearfix">
+  <!-- Use if you want to show previous and next for all posts. -->
+
+
+
+  <div class="col-4 sm-width-full left mr-lg-4 mt-3">
+    <a class="no-underline border-top-thin py-1 block" href="http://localhost:4000/lab/2023/01/09/init-of-gordon-makes.html">
+      <span class="h5 bold text-accent">Previous</span>
+      <p class="bold h3 link-primary mb-1">Init of Gordon Makes</p>
+      <p>Lab: Create and Host a Static Website Abstract It’s commonly recommended for those starting tech careers to put a portfolio...</p>
+    </a>
+  </div>
+  
+  
+  <div class="col-4 sm-width-full left mt-3">
+    <a class="no-underline border-top-thin py-1 block" href="http://localhost:4000/lab/2023/01/12/lab-msle-learn-on-demand-az-900.html">
+      <span class="h5 bold text-accent">Next</span>
+      <p class="bold h3 link-primary mb-1">Lab: MSLE Learn On Demand: AZ-900</p>
+      <p>## Abstract My Azure Administration course has laboratory assignments that make use of *Microsoft Learn for Educators*'s aka MSLE's cloud...</p>
+    </a>
+  </div>
+
+
+</div>
+
+    </div>
+
+    <div class="border-top-thin clearfix mt-2 mt-lg-4">
+  <div class="container mx-auto px-2">
+    <p class="col-8 sm-width-full left py-2 mb-0">This project is maintained by <a class="text-accent" href="https://github.com/GordonOps">GordonOps</a></p>
+    <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
+      <li class="inline-block mr-1">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="Gordon Makes">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </li>
+      <li class="inline-block">
+        <a class="github-button" href="https://github.com/GordonOps/gordonmakes" data-icon="octicon-star" data-count-href="GordonOps//stargazers" data-count-api="/repos/GordonOps/#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star GordonOps/ on GitHub">Star</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+  </body>
+
+</html>
